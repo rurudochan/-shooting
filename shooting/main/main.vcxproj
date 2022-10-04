@@ -128,7 +128,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="bulletsbase.cpp" />
+    <ClCompile Include="charabase.cpp" />
+    <ClCompile Include="enemy.cpp" />
+    <ClCompile Include="itembase.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="player.cpp" />
+    <ClCompile Include="scenemanager.cpp" />
+    <ClCompile Include="spherecollider.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bulletsbase.h" />
+    <ClInclude Include="charabase.h" />
+    <ClInclude Include="enemy.h" />
+    <ClInclude Include="itembase.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="player.h" />
+    <ClInclude Include="scenemanager.h" />
+    <ClInclude Include="spherecollider.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
